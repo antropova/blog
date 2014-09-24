@@ -1,3 +1,8 @@
+body {
+	background:black;
+	color: white;
+	font-family: Helvetica;
+}
 header {
 	text-align: center;
 	background: url("http://i.imgur.com/k4UYTtZ.jpg");
@@ -16,10 +21,32 @@ img {
 ul {
 	padding: 10px;
 	background: rgba(0,0,0,0.5);
+	font-size: 18px;
 }
 li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
+}
+article {
+	max-width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+}
+button {
+	border: 0;
+	padding: 10px;
+	font-size: 13px;
+	background: #1e90ff;
+	color: white;
+}
+input {
+	border: 0;
+	padding: 10px;
+	font-size: 18px;
+}
+input[type="submit"] {
+	background: magenta;
+	color: white;
 }
 @media (max-width: 500px) {
 	h1 {
