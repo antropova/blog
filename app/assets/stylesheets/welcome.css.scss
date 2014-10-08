@@ -23,7 +23,9 @@ img {
 }
 ul {
 	padding: 10px;
-	background: rgba(0,0,0,0.5);
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
 	font-size: 18px;
 }
 li {
