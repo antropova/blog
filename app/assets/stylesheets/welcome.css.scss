@@ -12,8 +12,9 @@ header {
 	color: white;
 }
 h1 {
-	font-size: 70px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'Anton', sans-serif;
+	font-size: 80px;
+	margin: -10px 0 100px 0;
 }
 img {
 	margin: 40px 0px 0px 0px;
@@ -30,7 +31,7 @@ li {
 	padding: 0px 10px 0px 10px;
 }
 article {
-	max-width: 500px;
+	max-width: 800px;
 	padding: 20px;
 	margin: 0 auto;
 }
@@ -50,7 +51,7 @@ input[type="submit"] {
 	background: magenta;
 	color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	h1 {
 		font-size: 36px;
 		padding: 5px;
