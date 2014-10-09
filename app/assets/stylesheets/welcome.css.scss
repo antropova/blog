@@ -23,6 +23,7 @@ img {
 }
 ul {
 	padding: 10px;
+	background: black;
 	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
 	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
 	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
@@ -57,6 +58,9 @@ input[type="submit"] {
 	h1 {
 		font-size: 36px;
 		padding: 5px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		line-height: 40px;
 	}
 	li {
 		padding: 5px;
